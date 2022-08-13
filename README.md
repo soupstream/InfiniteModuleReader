@@ -1,5 +1,11 @@
 # InfiniteModuleReader
-Basic reader for Halo Infinite Module files
+Fork of InfiniteModuleReader for dumping tag ids. Reads all modules and dumps tag ids (in both int and big-endian hex formats) to text files.
+
+You can use grep to get all tag ids of a certain type like this:
+
+```
+grep deploy -re '\.weapon$' > weapon_ids.txt
+```
 
 Derived from:
 
